@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(144, 146, 21, 0.75), rgba(0, 0, 0, 0));
+    margin: 2rem auto 2rem auto;
+    width: 40%;
+}
+
+ul {
+    list-style-position: inside;
+    text-indent: -1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Landing Page */
+.landing {
+    background-color: #001219;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+}
+
+/* About Me Section */
+.about-me-container {
+    background-color: #e9d8a6;
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.my-picture {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.about-me-list-container {
+    width: 30%;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-list-container {
+        width: 60%;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+}
+
+/* Projects Section */
+.projects-container {
+    background-color: #94d2bd;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.projects-container .img {
+    max-width: 250px;
+    height: auto;
+}
+
+.projects-grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-grid-container > div {
+    background-color: #001219;
+    width: 500px;
+    height: 500px;
+    padding: 2rem;
+    margin: 2rem;
+    background: rgba(18, 92, 67, 0.5);
+}
+
+.projects-grid-container > div:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.card > * {
+    padding: 0.2rem;
+}
+
+.project-desc {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-grid-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-grid-container > div {
+        max-width: 250px;
+    }
+}
+
+/* Footer */
+#footer {
+    background-color: #e9d8a6;
+    text-align: center;
+}
+
+.footer-icons-container {
+    padding-top: 2rem;
+}
+
+.footer-note {
+    padding: 1rem 0 2rem 0;
+}
+
+.icon {
+    padding-right: 1rem;
+}
