@@ -55,7 +55,7 @@ a {
 
 /* Landing Page */
 .landing {
-    background: url("/images/dragon-balls.jpg") no-repeat center;
+    background: url("images/dragon-balls.jpg") no-repeat center;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
     height: 100vh;
