@@ -1,6 +1,6 @@
 :root {
-    --primary-color-one: #e9d8a6;
-    --primary-color-two: #94d2bd;
+    --primary-color-one: #f6fdff;
+    --primary-color-two: #e3f7fd;
 }
 
 * {
@@ -15,6 +15,10 @@ body {
 h2 {
     font-weight: 550;
     color: rgb(25, 25, 25);
+}
+
+h3 {
+    font-weight: 500;
 }
 
 p, ul {
@@ -84,7 +88,7 @@ body::-webkit-scrollbar-thumb {
 /* About Me Section */
 .about-me-container {
     background-color: var(--primary-color-one);
-    padding: 5rem;
+    padding: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +117,7 @@ body::-webkit-scrollbar-thumb {
 /* Projects Section */
 .projects-container {
     background-color: var(--primary-color-two);
-    padding: 5rem;
+    padding: 4rem;
     text-align: center;
 }
 
@@ -237,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 /* Skills Section */
 .skills-container {
     background-color: var(--primary-color-one);
-    padding: 5rem;
+    padding: 4rem;
     text-align: center;
 }
 
@@ -266,7 +270,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 768px) {
-
     .skills-title {
         margin: 2rem 0 2rem 0;
     }
@@ -281,9 +284,46 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+/* Work Experience Section */
+.work-experience-container {
+    background-color: var(--primary-color-two);
+    padding: 4rem;
+    text-align: center;
+}
+
+.work-experience {
+    text-align: left;
+    list-style-position: inside;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 2px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.work-bullets {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .work-experience-container {
+        padding: 2rem;
+    }
+
+    .work-experience {
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .work-bullets {
+        margin-top: 0.5rem;
+        margin-left: 0;
+        padding-left: 0.5rem;
+    }
+}
+
 /* Footer */
 #footer {
-    background-color: var(--primary-color-two);
+    background-color: var(--primary-color-one);
     text-align: center;
 }
 
