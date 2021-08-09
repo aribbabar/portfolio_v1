@@ -98,6 +98,11 @@ body::-webkit-scrollbar-thumb {
 .my-picture {
     max-width: 200px;
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+.my-picture:hover {
+    transform: scale(1.05);
 }
 
 .about-me-list-container {
